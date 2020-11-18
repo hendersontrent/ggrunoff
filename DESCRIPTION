@@ -1,0 +1,16 @@
+Package: ggrunoff
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Authors@R: c(
+    person("Trent", "Henderson", email = "trent.henderson1@outlook.com", role = c("aut", "cre")))
+Maintainer: The package maintainer <trent.henderson1@outlook.com>
+Description: The Runoff theme for ggplot2
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
+Imports: 
+    tibble, 
+    ggplot2
