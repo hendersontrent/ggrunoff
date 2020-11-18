@@ -23,7 +23,7 @@ devtools::install_github("hendersontrent/ggrunoff")
 
 The colour palette for The Runoff uses 5 colours:
 
-``` {r, include = FALSE}
+``` {r, fig.keep = TRUE}
 library(scales)
 
 scales::show_col(ggrunoff:::runoff_palette)
