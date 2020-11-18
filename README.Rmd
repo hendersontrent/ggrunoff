@@ -1,0 +1,30 @@
+---
+output: github_document
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+comment = NA, fig.width = 6, fig.height = 4, cache = FALSE)
+```
+
+# ggrunoff
+
+Builds plot styling and colour palette for the website The Runoff.
+
+## Installation
+
+You can install `ggrunoff` from GitHub by running the following:
+
+```{r eval = FALSE}
+devtools::install_github("hendersontrent/ggrunoff")
+```
+
+## The palette
+
+The colour palette for The Runoff uses 5 colours:
+
+``` {r, include = FALSE}
+library(scales)
+
+scales::show_col(ggrunoff:::runoff_palette)
+```
